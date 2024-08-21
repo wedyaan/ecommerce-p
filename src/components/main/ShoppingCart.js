@@ -74,7 +74,7 @@ const ShoppingCart = () => {
                 </Box>
                 <Box>
                   <Link
-                    href="/CartPage"
+                    href="CartPage"
                     sx={{
                       position: "absolute",
                       bottom: 0,
