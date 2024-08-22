@@ -2,11 +2,11 @@ import {
   Box,
   Button,
   Container,
-   Stack,
+  Stack,
   Typography,
   useTheme,
 } from "@mui/material";
- 
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -52,6 +52,7 @@ export default function Hero() {
             return (
               <SwiperSlide key={item.link} className="parent-slider">
                 <img src={item.link} alt="" />
+
                 <Box
                   sx={{
                     [theme.breakpoints.up("sm")]: {
@@ -112,6 +113,12 @@ export default function Hero() {
           })}
         </Swiper>
 
+        <img
+          className="imgON"
+          src="https://tse3.mm.bing.net/th?id=OIP.sPmc7cEaBaOiGTW5pflloAHaFl&pid=Api&P=0&h=220"
+          alt=""
+        />
+
         <Box
           sx={{
             display: {
@@ -121,56 +128,56 @@ export default function Hero() {
             },
           }}
         >
-       <Box sx={{ position: "relative" }}>
-  <img
-    width={"100%"}
-    src="https://tse3.mm.bing.net/th?id=OIP.sPmc7cEaBaOiGTW5pflloAHaFl&pid=Api&P=0&h=220"
-    alt=""
-  />
+          <Box sx={{ position: "relative" }}>
+            <img
+              width={"100%"}
+              src="https://tse3.mm.bing.net/th?id=OIP.sPmc7cEaBaOiGTW5pflloAHaFl&pid=Api&P=0&h=220"
+              alt=""
+            />
 
-  <Box
-    sx={{
-      position: "absolute",
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%",
-      bgcolor: "rgba(0, 0, 0, 0.3)", 
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-    }}
-  >
-    <Stack
-      sx={{
-        position: "absolute",
-        top: "50%",
-        transform: "translateY(-50%)",
-        left: 31,
-      }}
-    >
-      <Typography
-        variant="caption"
-        sx={{
-          color: "#F3F3F3",
-          fontSize: "22px",
-        }}
-      >
-        Savor the Flavors{" "}
-      </Typography>
-      <Typography
-        variant="h6"
-        sx={{
-          color: "#F3F3F3",
-          lineHeight: "16px",
-          mt: 1,
-        }}
-      >
-        Order your favorite dishes with a few taps
-      </Typography>
-    </Stack>
-  </Box>
-</Box>
+            <Box
+              sx={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                bgcolor: "rgba(0, 0, 0, 0.3)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Stack
+                sx={{
+                  position: "absolute",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  left: 31,
+                }}
+              >
+                <Typography
+                  variant="caption"
+                  sx={{
+                    color: "#F3F3F3",
+                    fontSize: "22px",
+                  }}
+                >
+                  Savor the Flavors{" "}
+                </Typography>
+                <Typography
+                  variant="h6"
+                  sx={{
+                    color: "#F3F3F3",
+                    lineHeight: "16px",
+                    mt: 1,
+                  }}
+                >
+                  Order your favorite dishes with a few taps
+                </Typography>
+              </Stack>
+            </Box>
+          </Box>
 
           <Box sx={{ position: "relative" }}>
             <img
@@ -185,7 +192,7 @@ export default function Hero() {
                 left: 0,
                 width: "100%",
                 height: "100%",
-                bgcolor: "rgba(0, 0, 0, 0.3)",  
+                bgcolor: "rgba(0, 0, 0, 0.3)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
