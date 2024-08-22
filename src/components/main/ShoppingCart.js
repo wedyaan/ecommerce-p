@@ -73,7 +73,7 @@ const ShoppingCart = () => {
                   </Typography>
                 </Box>
                 <Box>
-                  <Link
+                  <Link 
                     href="/CartPage"
                     sx={{
                       position: "absolute",

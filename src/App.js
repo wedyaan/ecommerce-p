@@ -11,7 +11,7 @@ function App() {
       <ShoppingCartProvider>
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="" element={<Home />} />
             <Route path="/CartPage" element={<CartPage />} />
           </Routes>
         </Router>
